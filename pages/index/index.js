@@ -30,6 +30,10 @@ Page({
     this.setData({
       count: 0
     })
+  },
+  //获取用户信息
+  handleGetUserInfo(options) {
+    console.log("按钮方式获取用户信息", options.detail.userInfo);
   }
 
 })
