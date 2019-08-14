@@ -32,5 +32,11 @@ App({
    */
   onError: function (msg) {
 
+  },
+
+  // 设置全局变量
+  globalData: {
+    name: "zml",
+    age: 18
   }
 })

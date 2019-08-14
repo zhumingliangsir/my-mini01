@@ -2,6 +2,10 @@
 //获取应用实例
 const app = getApp()
 
+//获取全局变量
+let globalData = app.globalData;
+console.log(globalData.name, globalData.age);
+
 Page({
   data: {
     title: "欢迎来到小程序开发",
