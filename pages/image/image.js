@@ -7,7 +7,7 @@ Page({
   handleAlbum() {
     wx.chooseImage({
       success: (res) => {
-
+        console.log(res)
         let path = res.tempFilePaths[0];
 
         this.setData({
@@ -17,7 +17,7 @@ Page({
     })
   },
   handleImageLoad() {
-    console.log("加载完成")
+    console.log("加载完成");
   }
 
 })

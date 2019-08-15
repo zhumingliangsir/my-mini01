@@ -10,7 +10,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "miniproject",
+    "navigationBarTitleText": "小程序",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

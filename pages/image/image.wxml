@@ -3,10 +3,12 @@
 <image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" />
 
 <image show-menu-by-longpress src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" />
-
+<view>
+  <image mode="top" src="http://ent.k618.cn/gdxw/201606/W020160613380642466547.jpeg" />
+</view>
 <view>---------------------------------------</view>
-<view wx:for="{{50}}">
-  <image lazy-load mode="top" bindload="handleImageLoad" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" />
+<view wx:for="{{10}}" wx:key="item">
+  <image lazy-load bindload="handleImageLoad" src="http://ent.k618.cn/gdxw/201606/W020160613380642466547.jpeg" />
 </view>
 
 <button bindtap="handleAlbum">相册</button>
