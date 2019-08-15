@@ -1,0 +1,35 @@
+/* pages/view/view.wxss */
+
+.view {
+  width: 100px;
+  height: 100px;
+  background: #f60;
+}
+
+.hoverView {
+  width: 100px;
+  height: 100px;
+  background: #f00;
+}
+
+.viewParent {
+  width: 200px;
+  height: 200px;
+  background: #f60;
+}
+
+.viewParentHover {
+  background: #000;
+}
+
+.viewSon {
+  width: 100px;
+  height: 100px;
+  background: #00f;
+}
+
+.viewSonHover {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+}

@@ -1,0 +1,13 @@
+<!-- view组件基本使用 -->
+<view class="view" hover-class="hoverView" hover-start-time="1000" hover-stay-time="1000">
+  view组件
+</view>
+
+<view>-----------------</view>
+
+<view class="viewParent" hover-class="viewParentHover">
+  viewParent
+  <view class="viewSon" hover-class="viewSonHover" hover-stop-propagation>
+    son
+  </view>
+</view>
