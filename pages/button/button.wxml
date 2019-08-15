@@ -1,0 +1,12 @@
+<!-- button的基本使用 -->
+<button>按钮</button>
+
+<button size="mini">按钮</button>
+
+<button size="mini" type="primary">按钮</button>
+
+<button size="mini" type="warn">按钮</button>
+
+<button plain>按钮</button>
+
+<button hover-class="btnHover">按钮</button>
