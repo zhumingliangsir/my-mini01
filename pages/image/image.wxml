@@ -1,0 +1,15 @@
+<!-- image基本使用 -->
+<!-- <image /> -->
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" />
+
+<image show-menu-by-longpress src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" />
+
+<view>---------------------------------------</view>
+<view wx:for="{{50}}">
+  <image lazy-load mode="top" bindload="handleImageLoad" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" />
+</view>
+
+<button bindtap="handleAlbum">相册</button>
+
+
+<image src="{{imagePath}}" />
