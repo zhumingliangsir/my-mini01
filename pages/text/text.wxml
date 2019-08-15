@@ -1,0 +1,26 @@
+<!-- text组件基本练习 -->
+<text>欢迎</text>
+
+<view>
+  <text selectable>欢迎</text>
+</view>
+
+<view>
+  <text space="ensp">hello world</text>
+</view>
+
+<view>
+  <text space="esmp">hello world</text>
+</view>
+
+<view>
+  <text space="nbsp">hello  world</text>
+</view>
+
+<view>
+  <text>&gt;</text>
+</view>
+
+<view>
+  <text decode>&gt;</text>
+</view>
