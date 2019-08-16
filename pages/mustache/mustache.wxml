@@ -1,0 +1,6 @@
+<!-- mustache基本使用 -->
+<view>{{msg}}</view>
+
+<view>{{age>18?"成年人":"未成年人"}}</view>
+
+<view>{{firstName + " " +lastName}}</view>
