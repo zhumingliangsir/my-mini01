@@ -1,0 +1,10 @@
+<!--pages/wxif/wxif.wxml-->
+<button size="mini" bindtap="handleIfShow">显隐</button>
+<view wx:if="{{isShow}}">if控制显示隐藏</view>
+
+<view>----------------------------</view>
+
+
+<button size="mini" bindtap="handleHidden">hidden显隐</button>
+
+<view hidden="{{hiddenShow}}">hidden控制显示隐藏</view>

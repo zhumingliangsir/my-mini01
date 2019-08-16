@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/wxif/wxif",
     "pages/mustache/mustache",
     "pages/image/image",
     "pages/view/view",
