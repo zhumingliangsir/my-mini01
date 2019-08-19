@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/handleEvent/handleEvent",
     "pages/wxs2/wxs2",
     "pages/wxs/wxs",
     "pages/wxif/wxif",

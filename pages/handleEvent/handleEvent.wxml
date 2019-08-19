@@ -1,0 +1,15 @@
+<!--pages/handleEvent/handleEvent.wxml-->
+<button size="mini" bindtap="handleBindTap">handleBindTap</button>
+<button size="mini" bind:tap="handleBindTap">handleBindTap2</button>
+<button size="mini" catch:tap="handleBindTap">handleCatchTap3</button>
+
+<view>------------------------------------</view>
+<button size="mini" 
+        bindtouchstart="bindtouchstart"
+        bindtouchmove="touchmove"
+        bindtouchcancel="touchcancel"
+        bindtouchend="touchend"
+        bindlongpress="longpress"
+        bindlongtap="longtap"
+        bindtouchforcechange="touchforcechange"
+        >按钮</button>
