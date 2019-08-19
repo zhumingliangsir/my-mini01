@@ -1,0 +1,12 @@
+function sum(a, b) {
+  return a + b;
+}
+
+function priceFormat(val, num) {
+  var num = num || 2;
+  return val.toFixed(num);
+}
+module.exports = {
+  sum: sum,
+  priceFormat: priceFormat
+}

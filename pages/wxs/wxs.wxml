@@ -1,0 +1,12 @@
+<!--pages/wxs/wxs.wxml-->
+<wxs module="info">
+  var sum = function(a, b) {
+    return a + b;
+  }
+  module.exports = {
+    sum: sum
+  }
+</wxs>
+<view>wxs的基本使用1</view>
+
+<view>{{info.sum(10,20)}}</view>

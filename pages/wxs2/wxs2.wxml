@@ -1,0 +1,7 @@
+<!--pages/wxs2/wxs2.wxml-->
+<wxs src="../../wxs/info.wxs" module="info" />
+<view>wxs的基本使用2</view>
+<view>{{info.sum(10,20)}}</view>
+<view>----------------价格---------------</view>
+
+<view>{{info.priceFormat(price,3)}}</view>

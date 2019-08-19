@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/wxs2/wxs2",
+    "pages/wxs/wxs",
     "pages/wxif/wxif",
     "pages/mustache/mustache",
     "pages/image/image",
